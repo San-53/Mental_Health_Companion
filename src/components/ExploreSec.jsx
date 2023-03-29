@@ -27,6 +27,7 @@ export default function ExploreSec() {
       url={item.imageurl}
       price={item.price}
       description={item.description}
+      link={item.link}
     />
   ) );
  

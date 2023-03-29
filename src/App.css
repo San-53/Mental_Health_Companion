@@ -63,25 +63,92 @@
 }
 #header{
   /* border: 10px solid black; */
-  width: 100.55vw;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100.05vw;
+  display: flex;
+  /* align-items: center; */
   height: 3.5rem;
-  align-items: center;
-  flex-direction: column;
+  /* align-items: center;
+  flex-direction: column; */
   /* background-color: antiquewhite; */
   /* margin-left: -11.99%; */
   margin-left: -11.6%;
   margin-top: -11%;
   margin-bottom: 3rem;
   /* background: #1abc9c; */
-  background: rgb(2,0,36);
+  /* background: rgb(2,0,36); */
+  background: hsla(167, 68%, 73%, 1);
+
+background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
 /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  color: white;
+  /* color: black; */
   padding: 0.8%;
   font-weight: bold;
   font-size:x-large;
   font-family: 'Edu NSW ACT Foundation', cursive;
 font-family: 'Merriweather', serif;
 font-family: 'Roboto Slab', serif;
+}
+.header1{
+  color: black;
+  margin-right: 70%;
+}
+.header2{
+  /* justify-content: ; */
+  /* margin-left: 70%; */
+}
+li {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a,
+nav select {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav select {
+  background-color: #444;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+nav select:hover {
+  background-color: #555;
+}
+
+nav select option {
+  background-color: #444;
+  color: #fff;
+}
+
+nav select option:hover {
+  background-color: #555;
 }

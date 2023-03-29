@@ -9,7 +9,9 @@
     justify-content: center;    
     /* background-image: linear-gradient(purple,rgb(238, 48, 238)); */
     /* background-color: #3aaccb; */
-    background-image: linear-gradient(to right top, #ffc1e4, #e9bbee, #ccb8f5, #a6b7f9, #77b6f6, #5bbbf5, #3abff1, #00c3ea, #00cfeb, #00dae9, #00e5e5, #2eefde);
+    /* background-image: linear-gradient(to right top, #ffc1e4, #e9bbee, #ccb8f5, #a6b7f9, #77b6f6, #5bbbf5, #3abff1, #00c3ea, #00cfeb, #00dae9, #00e5e5, #2eefde); */
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     min-height: 100vh;
     width: 100%;
   }
