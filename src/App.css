@@ -69,13 +69,13 @@
   width: 100.05vw;
   display: flex;
   /* align-items: center; */
-  height: 3.5rem;
+  height: 3.1rem;
   /* align-items: center;
   flex-direction: column; */
   /* background-color: antiquewhite; */
   /* margin-left: -11.99%; */
-  margin-left: -11.6%;
-  margin-top: -11%;
+  margin-left: -10.1%;
+  margin-top: -10%;
   margin-bottom: 3rem;
   /* background: #1abc9c; */
   /* background: rgb(2,0,36); */
@@ -90,7 +90,7 @@ background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
 /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   /* color: black; */
-  padding: 0.8%;
+  /* padding: 0.8%; */
   font-weight: bold;
   font-size:x-large;
   font-family: 'Edu NSW ACT Foundation', cursive;
@@ -100,6 +100,8 @@ font-family: 'Roboto Slab', serif;
 .header1{
   color: black;
   margin-right: 70%;
+  /* padding-top: -3%; */
+  margin-top: 0%;
 }
 .header2{
   /* justify-content: ; */

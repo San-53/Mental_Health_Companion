@@ -1,36 +1,53 @@
+// import { useState } from "react";
+import React, { useState } from 'react';
+import ChatBot from './components/ChatBot';
 import Quiz from './components/Quiz';
 import Explore from './components/ExploreSec.jsx';
-import ChatBot from './components/ChatBot';
 
+function App() {
+  const [displayComponent, setDisplayComponent] = useState("explore");
 
+  function handleSelectChange(event) {
+    setDisplayComponent(event.target.value);
+  }
 
+  function renderSelectedComponent() {
+    switch (displayComponent) {
+      case "chatbot":
+        window.location.href = "https://www.google.com";
+    return null;
+    case "ex":
+      window.location.href = "https://www.nimh.nih.gov/health/topics/suicide-prevention";
+      return null;
+      case "ex1":
+        window.location.href = "https://fluffy-sherbet-5f395f.netlify.app/";
+        return null;
+        case "ex2":
+          window.location.href = "https://www.thelivelovelaughfoundation.org/helpline";
+          return null;
+      default:
+        return <Explore />;
+    }
+  }
 
-  function App() {
   return (
-    // <Header/>
     <div className="App">
-      <div id='header'> 
-       <h4 className='header1'>Mental Health App</h4>
-       <nav>
-       <li>
-            <select>
-              <option value="option1">Chatbot</option>
-              <option value="option2">Quiz App</option>
-              <option value="option3">View More</option>
+      <div id="header">
+        <h4 className="header1">Mental Health App</h4>
+        <nav>
+          <li>
+            <select value={displayComponent} onChange={handleSelectChange}> 
+              <option>More</option>
+              <option value="ex2">Helpline Number</option>
+              <option value="ex">Suicidal Helpline Number</option>
+              <option value="ex1">About us</option>
             </select>
           </li>
-          </nav>
+        </nav>
       </div>
-      {/* <div id='quiz_css'> */}
-       {/* <Quiz/> */}
-       <div>
-       <Explore/>
-      {/* </div> */}
-      <div>
-      {/* <ChatBot/> */}
-      </div>
+      <div>{renderSelectedComponent()}</div>
     </div>
-    </div>
-  )
-  }
-export default App
+  );
+}
+
+export default App;

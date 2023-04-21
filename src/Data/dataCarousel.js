@@ -27,7 +27,8 @@ export const productData = [
     name: "Mental Health Companion",
     price: "$49.99",
     description: "Some text about the product..",
-    link:"https://stackoverflow.com/questions/19766401/style-h1-inside-a-div"
+    link:`https://www.mind.org.uk/`,
+    data:`"Mental Health Companion" is a term that refers to a range of digital applications, tools, and services that are designed to support mental health and wellbeing. These can include mobile apps, chatbots, online communities, and teletherapy platforms. Mental Health Companions are intended to provide users with easy access to mental health resources and support, often using techniques such as cognitive behavioral therapy (CBT) and mindfulness meditation to help users manage stress, anxiety, depression, and other mental health concerns. Some Mental Health Companions may also provide personalized recommendations, progress tracking, and other features to help users improve their mental health outcomes.`,
   },
   {
     id: 2,
@@ -36,6 +37,8 @@ export const productData = [
     name: "Depression",
     price: "$19.99",
     description: "Some text about the product..",
+    data :`Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living.
+    More than just a bout of the blues, depression isn't a weakness and you can't simply "snap out" of it. Depression may require long-term treatment. But don't get discouraged. Most people with depression feel better with medication, psychotherapy or both.`
   },
   {
     id: 3,
@@ -44,6 +47,14 @@ export const productData = [
     name: "Post Traumatic Stress Disorder(PTSD)",
     price: "$21.99",
     description: "Some text about the product..",
+    data:`PTSD stands for Post-Traumatic Stress Disorder, which is a mental health condition that can occur in people who have experienced or witnessed a traumatic event. PTSD can develop after experiencing a traumatic event such as combat, sexual or physical assault, natural disasters, accidents, or any other situation that causes intense fear, helplessness, or horror.
+    People with PTSD may experience a range of symptoms, including:
+    
+    Recurrent and intrusive memories of the traumatic event
+    Nightmares or flashbacks of the event
+    Avoidance of triggers that remind them of the event
+    Negative changes in mood and thoughts, such as guilt, shame, or a sense of detachment
+    Hyperarousal, including increased vigilance, irritability, and difficulty sleeping or concentrating.`
   },
   {
     id: 4,
@@ -52,6 +63,7 @@ export const productData = [
     name: "Anxiety",
     price: "$99.99",
     description: "Some text about the product..",
+    data:`Anxiety is a normal and often necessary response to stress or danger. However, when anxiety becomes excessive, irrational, or chronic, it can interfere with daily life and lead to a range of negative outcomes, including difficulty concentrating, irritability, fatigue, muscle tension, and sleep disturbances. Anxiety disorders are a group of mental health conditions that are characterized by persistent and excessive fear, worry, and anxiety. These can include generalized anxiety disorder (GAD), panic disorder, social anxiety disorder, and specific phobias. Treatment for anxiety may involve a combination of medication, psychotherapy, and lifestyle changes, depending on the severity and type of anxiety disorder. Effective treatment can help manage symptoms and improve overall quality of life.`
   },
   {
     id: 5,
@@ -60,6 +72,9 @@ export const productData = [
     name: "Attention-deficit/hyperactivity disorder(ADHD)",
     price: "$14.99",
     description: "Some text about the product..",
+    data:`ADHD stands for Attention Deficit Hyperactivity Disorder, which is a neurodevelopmental disorder that affects both children and adults. ADHD is characterized by symptoms of inattention, hyperactivity, and impulsivity.
+    Inattention symptoms can include difficulty paying attention, being easily distracted, forgetfulness, and difficulty following through with tasks. Hyperactivity symptoms can include fidgeting, restlessness, excessive talking, and difficulty staying still or quiet. Impulsivity symptoms can include interrupting others, acting without thinking, and difficulty waiting their turn.
+    The exact cause of ADHD is not fully understood, but it is believed to be related to genetics and brain chemistry. ADHD can have a significant impact on a person's daily life, including their education, work, and relationships.`
   },
   {
     id: 6,
@@ -68,6 +83,7 @@ export const productData = [
     name: "Obsessive-compulsive disorder(OCD)",
     price: "$38.99",
     description: "Some text about the product..",
+    data:`Obsessive-compulsive disorder (OCD) is a mental health condition characterized by unwanted, intrusive thoughts, feelings, or images (obsessions) that lead to repetitive and ritualistic behaviors (compulsions) in an effort to reduce anxiety or prevent harm. These compulsive behaviors can interfere with daily activities and relationships, and may include repetitive hand washing, counting, checking, or arranging objects. OCD affects people of all ages, genders, and backgrounds and can cause significant distress and impairment in functioning. Treatment for OCD typically involves a combination of medication and cognitive-behavioral therapy, such as exposure and response prevention (ERP) therapy, which helps individuals gradually face and overcome their obsessive fears and compulsive behaviors. With proper treatment, individuals with OCD can learn to manage their symptoms and lead fulfilling lives.`
   },
   {
     id: 7,
@@ -76,6 +92,10 @@ export const productData = [
     name: "Bipolar disorder",
     price: "$149.99",
     description: "Some text about the product..",
+    data:`Bipolar disorder, also known as manic-depressive illness, is a mental health condition that causes extreme mood swings that alternate between manic or hypomanic episodes and depressive episodes. These mood swings can have a significant impact on a person's daily life, relationships, and ability to function.
+    Manic or hypomanic episodes are characterized by an elevated or irritable mood, increased energy, decreased need for sleep, grandiosity or overconfidence, racing thoughts, and impulsive behavior. Depressive episodes are characterized by a persistent low mood, loss of interest in activities, fatigue, sleep disturbances, and feelings of worthlessness or guilt.
+    The exact cause of bipolar disorder is not fully understood, but it is believed to be related to genetics, brain chemistry, and environmental factors. Bipolar disorder can be a chronic condition that requires ongoing treatment, including medication and therapy.
+    `
   },
   {
     id: 8,
@@ -84,5 +104,6 @@ export const productData = [
     name: "Learn More",
     price: "$38.99",
     description: "Some text about the product..",
+    data:`Mental health refers to a person's overall psychological and emotional well-being. It encompasses the way individuals think, feel, and behave and includes factors such as mood, behavior, and thinking patterns. Good mental health allows individuals to cope with the daily challenges of life, work productively, and make meaningful contributions to their communities. Mental health disorders are common and can range from mild to severe, affecting people of all ages and backgrounds. These disorders can include depression, anxiety, bipolar disorder, schizophrenia, and eating disorders. Mental health treatment may involve medication, therapy, or a combination of both, and can help individuals manage symptoms and improve their quality of life. Taking care of one's mental health is essential for overall well-being and can involve practices such as exercise, stress management, and self-care.`
   },
 ];
