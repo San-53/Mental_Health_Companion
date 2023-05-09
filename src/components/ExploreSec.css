@@ -57,14 +57,8 @@
   .card button:hover {
     opacity: 0.7;
   }
-  #box{
-    /* border: 10px solid black; */
-    /* filter: blur(4px); */
-    /* background-color: #000; */
-  }
+
   .chatbot-open {
-    /* background-color: rgba(0, 0, 255, 0.5); */
-    /* pointer-events: none; */
     filter: blur(4px);
   }
 
@@ -74,4 +68,29 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color:#000;
+}
+.buttons{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.buttons {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #293b5f 0%, #0c1b48 100%);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+.buttons:active{
+  box-shadow:none;    
+}
+.buttons:hover {
+  background-image: linear-gradient(to bottom, #0a9d93 0%, #190455 100%);
+
 }

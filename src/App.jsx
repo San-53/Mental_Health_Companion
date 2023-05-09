@@ -36,11 +36,11 @@ function App() {
         <h4 className="header1">Mental Health App</h4>
         <nav>
           <li>
-            <select value={displayComponent} onChange={handleSelectChange}> 
-              <option>More</option>
-              <option value="ex2">Helpline Number</option>
-              <option value="ex">Suicidal Helpline Number</option>
-              <option value="ex1">About us</option>
+            <select className='options' value={displayComponent} onChange={handleSelectChange}> 
+              <option className='options'>More</option>
+              <option className='options' value="ex2">Helpline Number</option>
+              <option className='options' value="ex">Suicidal Helpline Number</option>
+              <option className='options' value="ex1">About us</option>
             </select>
           </li>
         </nav>

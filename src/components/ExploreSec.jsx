@@ -51,27 +51,26 @@ export default function ExploreSec() {
       {/*  */}
 
       <div>
+        {/*  */}
+        {isQuizOpen && (
+          <div className="chatbot1">
+            <Quiz />
+          </div>
+        )}
+        <button className="buttons" onClick={() => setIsOpen(!isOpen && toggleQuiz)}>
+          Questionnaire
+        </button>
+        {isOpen && <Quiz /> && toggleQuiz}
+
         {isChatbotOpen && (
           <div className="chatbot">
             <ChatBot />
           </div>
         )}
-        <button onClick={() => setIsOpen(!isOpen && toggleChatbot)}>
-          Toggle Chatbot
+        <button className="buttons" onClick={() => setIsOpen(!isOpen && toggleChatbot)}>
+          Chatbot
         </button>
         {isOpen && <ChatBot /> && toggleChatbot}
-
-
-        {/*  */}
-        {isQuizOpen && (
-          <div className="chatbot">
-            <Quiz />
-          </div>
-        )}
-        <button onClick={() => setIsOpen(!isOpen && toggleQuiz)}>
-          Quiz App
-        </button>
-        {isOpen && <Quiz /> && toggleQuiz}
       </div>
 
     </div>

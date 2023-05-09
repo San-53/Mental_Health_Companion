@@ -1,3 +1,12 @@
+/* Use CSS variables to define common values */
+:root {
+  --primary-color: hsla(167, 68%, 73%, 1);
+  --secondary-color: hsla(178, 59%, 48%, 1);
+  --font-family-heading: 'Edu NSW ACT Foundation', cursive;
+  --font-family-text: 'Roboto Slab', serif;
+}
+
+/* Define styles for the root element */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,6 +14,7 @@
   text-align: center;
 }
 
+/* Define styles for the logo */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,6 +28,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Define keyframes for the logo spin animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -27,98 +38,67 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* Define styles for the card */
 .card {
   padding: 1em;
 }
 
+/* Define styles for the "Read the Docs" text */
 .read-the-docs {
   color: #888;
 }
 
-#bot{
+/* Define styles for the bot container */
+#bot {
   margin-left: 70%;
   margin-top: -35%;
-  /* margin-top: 1%; */
   backdrop-filter: blur(8px);
 }
 
-/* #quiz_css{
-  /* border: 10px solid black; */
-  /* margin-top: 30%; */
-  /* margin-right: 50%;
-  margin-left: -50%;
-  height: 12rem; */
-  /* padding-bottom: 20%; */
-  /* border-radius: 12px; */
-/* }  */
-.box_bot{
+/* Define styles for the box bot */
+.box_bot {
   border-radius: 20px;
   margin-right: 0%;
 }
+
+/* Define styles for the header */
 #header{
-  /* border: 10px solid black; */
   display: flex;
   flex-direction: row;
   justify-content:space-around;
   width: 100.05vw;
   display: flex;
-  /* align-items: center; */
   height: 3.1rem;
-  /* align-items: center;
-  flex-direction: column; */
-  /* background-color: antiquewhite; */
-  /* margin-left: -11.99%; */
   margin-left: -10.1%;
   margin-top: -10%;
   margin-bottom: 3rem;
-  /* background: #1abc9c; */
-  /* background: rgb(2,0,36); */
-  background: hsla(167, 68%, 73%, 1);
-
-background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
-
+  background-image: linear-gradient(to right, #051937, #004a70, #008099, #00b9a9, #79efa3);
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
-/* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  /* color: black; */
-  /* padding: 0.8%; */
   font-weight: bold;
   font-size:x-large;
-  font-family: 'Edu NSW ACT Foundation', cursive;
-font-family: 'Merriweather', serif;
+  /* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Merriweather', serif; */
 font-family: 'Roboto Slab', serif;
 }
 .header1{
-  color: black;
+  color: white;
   margin-right: 70%;
   /* padding-top: -3%; */
   margin-top: 0%;
 }
-.header2{
-  /* justify-content: ; */
-  /* margin-left: 70%; */
-}
-li {
-  list-style-type: none;
+
+/* Define styles for the navigation */
+nav {
+  display: flex;
+  justify-content: center;
 }
 nav li {
-  display: inline-block;
+  list-style-type: none;
   margin-right: 20px;
 }
-
 nav li:last-child {
   margin-right: 0;
 }
-
 nav a,
 nav select {
   color: #fff;
@@ -128,29 +108,31 @@ nav select {
   padding: 10px;
   text-decoration: none;
 }
-
 nav select {
-  background-color: #444;
+  background-color: #0d193e;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
+  margin-top: 4.5px;
   color: #fff;
+  font-weight: bold;
+  font-size: 15px;
   cursor: pointer;
   font-size: 16px;
-  padding: 10px;
+  /* width: 80%; */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
-
 nav select:hover {
-  background-color: #555;
+  background-color: #063c50;
 }
-
 nav select option {
-  background-color: #444;
+  background-color: #0b0f34;
   color: #fff;
+  width: 80%;
+  text-align: center;
 }
-
 nav select option:hover {
-  background-color: #555;
+  background-color: #093241;
 }

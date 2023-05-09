@@ -28,7 +28,17 @@ export const productData = [
     price: "$49.99",
     description: "Some text about the product..",
     link:`https://www.mind.org.uk/`,
-    data:`"Mental Health Companion" is a term that refers to a range of digital applications, tools, and services that are designed to support mental health and wellbeing. These can include mobile apps, chatbots, online communities, and teletherapy platforms. Mental Health Companions are intended to provide users with easy access to mental health resources and support, often using techniques such as cognitive behavioral therapy (CBT) and mindfulness meditation to help users manage stress, anxiety, depression, and other mental health concerns. Some Mental Health Companions may also provide personalized recommendations, progress tracking, and other features to help users improve their mental health outcomes.`,
+    data:`A mental health companion app can be a useful tool to support individuals in managing their mental health. Some benefits of using a mental health companion app include:
+
+    Convenient Access: A mental health companion app provides individuals with easy access to resources and support at any time and anywhere.
+    
+    Self-monitoring: An app can help users to track their mood, thoughts, and behaviors to identify patterns and triggers that can affect their mental health.
+    Personalized Support: Based on the information gathered, mental health apps can provide personalized recommendations for managing mental health, including self-care strategies and coping techniques.
+    
+    Anonymity: Some individuals may feel more comfortable sharing their experiences and seeking help anonymously through an app rather than in-person.
+    
+    Reduced Stigma: Using a mental health app can help to reduce the stigma associated with seeking help for mental health challenges.
+    `,
   },
   {
     id: 2,
@@ -68,7 +78,7 @@ export const productData = [
   {
     id: 5,
     imageurl:
-      "https://cdn.pixabay.com/photo/2020/10/18/07/49/woman-5664032_960_720.jpg",
+      "https://images.pexels.com/photos/8378728/pexels-photo-8378728.jpeg",
     name: "Attention-deficit/hyperactivity disorder(ADHD)",
     price: "$14.99",
     description: "Some text about the product..",
@@ -100,7 +110,7 @@ export const productData = [
   {
     id: 8,
     imageurl:
-      "https://images.unsplash.com/photo-1589782182703-2aaa69037b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1621887348744-6b0444f8a058?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     name: "Learn More",
     price: "$38.99",
     description: "Some text about the product..",
