@@ -2,10 +2,9 @@ import { useState } from 'react'
 import '../App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
+import { API_KEY } from './config';
 
-// another key
-// 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
-const API_KEY = "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";
+// const API_KEY = window.REACT_APP_API_KEY;
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
@@ -86,7 +85,7 @@ function ChatBot() {
     });
   }
     return(
-    <div id='bot' style={{ height: "40rem", width: "25rem", marginLeft:"70%",marginRight:"50%"}}>
+    <div id='bot' style={{ height: "32rem", width: "25rem", marginLeft:"70%",marginRight:"50%"}}>
         <MainContainer style={{borderRadius:"12px",boxShadow: "2px 2px 10px 1px #333" }}>
           <ChatContainer>       
             <MessageList
