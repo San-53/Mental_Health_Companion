@@ -1,5 +1,5 @@
 # Mental Health Companion
-
+### This is part of our final year project
 The Mental Health Companion App is an application designed to help individuals manage their mental health.
 The app provides a range of tools to help users talk to a chatbot. It has a questionnaire that is desgined to
 detect the most probable illness the user might be suffering from.
